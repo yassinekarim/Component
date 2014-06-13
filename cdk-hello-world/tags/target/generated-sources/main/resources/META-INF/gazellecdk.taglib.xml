@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<facelet-taglib xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facelettaglibrary_2_0.xsd" version="2.0" id="gazellecdk">
+    <namespace>http://www.ihe.net/gazellecdk</namespace>
+    <tag>
+        <tag-name>insert</tag-name>
+        <component>
+            <component-type>Insert</component-type>
+            <renderer-type>net.ihe.gazelle.tags.insert</renderer-type>
+        </component>
+        <attribute>
+            <description>The value binding expression used to wire up this component to a component property of a JavaBean class</description>
+            <icon/>
+            <name>binding</name>
+            <type>javax.faces.component.UIComponent</type>
+        </attribute>
+        <attribute>
+            <name>content</name>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>highlight</name>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <description>The component identifier for this component. This value must be unique within the closest parent component that is a naming container.</description>
+            <display-name>Component Identifier</display-name>
+            <icon/>
+            <name>id</name>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <description>Flag indicating whether or not this component should be rendered (during Render Response Phase), or processed on any subsequent form submit. The default value for this property is true.</description>
+            <display-name>Rendered Flag</display-name>
+            <icon/>
+            <name>rendered</name>
+            <type>boolean</type>
+        </attribute>
+        <attribute>
+            <name>src</name>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+    <tag>
+        <tag-name>spacer</tag-name>
+        <component>
+            <component-type>GazelleSpacer</component-type>
+            <renderer-type>net.ihe.gazelle.tags.spacer</renderer-type>
+        </component>
+        <attribute>
+            <description>The value binding expression used to wire up this component to a component property of a JavaBean class</description>
+            <icon/>
+            <name>binding</name>
+            <type>javax.faces.component.UIComponent</type>
+        </attribute>
+        <attribute>
+            <name>height</name>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <description>The component identifier for this component. This value must be unique within the closest parent component that is a naming container.</description>
+            <display-name>Component Identifier</display-name>
+            <icon/>
+            <name>id</name>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <description>Flag indicating whether or not this component should be rendered (during Render Response Phase), or processed on any subsequent form submit. The default value for this property is true.</description>
+            <display-name>Rendered Flag</display-name>
+            <icon/>
+            <name>rendered</name>
+            <type>boolean</type>
+        </attribute>
+        <attribute>
+            <name>width</name>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+</facelet-taglib>

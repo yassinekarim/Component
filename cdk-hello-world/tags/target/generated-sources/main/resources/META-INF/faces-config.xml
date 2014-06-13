@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<faces-config version="2.0" metadata-complete="false" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:cdk="http://jboss.org/schema/richfaces/cdk/extensions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <component>
+        <component-type>Insert</component-type>
+        <component-class>component.UIInsert</component-class>
+        <property>
+            <description>The value binding expression used to wire up this
+            component to a component property of a JavaBean class
+        </description>
+            <display-name></display-name>
+            <icon/>
+            <property-name>binding</property-name>
+            <property-class>javax.faces.component.UIComponent</property-class>
+            <property-extension>
+                <cdk:generate>false</cdk:generate>
+                <cdk:hidden>false</cdk:hidden>
+                <cdk:literal>false</cdk:literal>
+                <cdk:pass-through>false</cdk:pass-through>
+                <cdk:read-only>false</cdk:read-only>
+                <cdk:required>false</cdk:required>
+            </property-extension>
+        </property>
+        <property>
+            <description>
+            The component identifier for this component. This value must be
+            unique within the closest parent component
+            that is a naming
+            container.
+        </description>
+            <display-name>Component Identifier</display-name>
+            <icon/>
+            <property-name>id</property-name>
+            <property-class>java.lang.String</property-class>
+            <property-extension>
+                <cdk:generate>false</cdk:generate>
+                <cdk:hidden>false</cdk:hidden>
+                <cdk:literal>false</cdk:literal>
+                <cdk:pass-through>false</cdk:pass-through>
+                <cdk:read-only>false</cdk:read-only>
+                <cdk:required>false</cdk:required>
+            </property-extension>
+        </property>
+        <property>
+            <description>
+            Flag indicating whether or not this component should be rendered
+            (during Render Response Phase), or
+            processed on any subsequent
+            form submit. The default value for this property is true.
+        </description>
+            <display-name>Rendered Flag</display-name>
+            <icon/>
+            <property-name>rendered</property-name>
+            <property-class>boolean</property-class>
+            <default-value>Boolean.FALSE</default-value>
+            <property-extension>
+                <cdk:generate>false</cdk:generate>
+                <cdk:hidden>false</cdk:hidden>
+                <cdk:literal>false</cdk:literal>
+                <cdk:pass-through>false</cdk:pass-through>
+                <cdk:read-only>false</cdk:read-only>
+                <cdk:required>false</cdk:required>
+            </property-extension>
+        </property>
+        <property>
+            <property-name>src</property-name>
+            <property-class>java.lang.String</property-class>
+            <property-extension>
+                <cdk:generate>true</cdk:generate>
+                <cdk:hidden>false</cdk:hidden>
+                <cdk:literal>false</cdk:literal>
+                <cdk:pass-through>false</cdk:pass-through>
+                <cdk:read-only>false</cdk:read-only>
+                <cdk:required>false</cdk:required>
+            </property-extension>
+        </property>
+        <property>
+            <property-name>highlight</property-name>
+            <property-class>java.lang.String</property-class>
+            <default-value>"xml"</default-value>
+            <suggested-value>groovy,java,beanshell,bsh,xml,xhtml,lzx,html,cpp,cxx,c++</suggested-value>
+            <property-extension>
+                <cdk:generate>true</cdk:generate>
+                <cdk:hidden>false</cdk:hidden>
+                <cdk:literal>false</cdk:literal>
+                <cdk:pass-through>false</cdk:pass-through>
+                <cdk:read-only>false</cdk:read-only>
+                <cdk:required>false</cdk:required>
+            </property-extension>
+        </property>
+        <property>
+            <property-name>content</property-name>
+            <property-class>java.lang.String</property-class>
+            <property-extension>
+                <cdk:generate>true</cdk:generate>
+                <cdk:hidden>false</cdk:hidden>
+                <cdk:literal>false</cdk:literal>
+                <cdk:pass-through>false</cdk:pass-through>
+                <cdk:read-only>false</cdk:read-only>
+                <cdk:required>false</cdk:required>
+            </property-extension>
+        </property>
+        <component-extension>
+            <cdk:base-class>net.ihe.gazelle.tags.component.AbstractInsert</cdk:base-class>
+            <cdk:generate>true</cdk:generate>
+            <cdk:tag>
+                <cdk:generate>false</cdk:generate>
+                <cdk:tag-name>insert</cdk:tag-name>
+                <cdk:tag-type>Facelets</cdk:tag-type>
+            </cdk:tag>
+            <cdk:component-family>Insert</cdk:component-family>
+            <cdk:renderer-type>net.ihe.gazelle.tags.insert</cdk:renderer-type>
+        </component-extension>
+    </component>
+    <component>
+        <component-type>GazelleSpacer</component-type>
+        <component-class>component.UIGazelleSpacer</component-class>
+        <property>
+            <description>The value binding expression used to wire up this
+            component to a component property of a JavaBean class
+        </description>
+            <display-name></display-name>
+            <icon/>
+            <property-name>binding</property-name>
+            <property-class>javax.faces.component.UIComponent</property-class>
+            <property-extension>
+                <cdk:generate>false</cdk:generate>
+                <cdk:hidden>false</cdk:hidden>
+                <cdk:literal>false</cdk:literal>
+                <cdk:pass-through>false</cdk:pass-through>
+                <cdk:read-only>false</cdk:read-only>
+                <cdk:required>false</cdk:required>
+            </property-extension>
+        </property>
+        <property>
+            <description>
+            The component identifier for this component. This value must be
+            unique within the closest parent component
+            that is a naming
+            container.
+        </description>
+            <display-name>Component Identifier</display-name>
+            <icon/>
+            <property-name>id</property-name>
+            <property-class>java.lang.String</property-class>
+            <property-extension>
+                <cdk:generate>false</cdk:generate>
+                <cdk:hidden>false</cdk:hidden>
+                <cdk:literal>false</cdk:literal>
+                <cdk:pass-through>false</cdk:pass-through>
+                <cdk:read-only>false</cdk:read-only>
+                <cdk:required>false</cdk:required>
+            </property-extension>
+        </property>
+        <property>
+            <description>
+            Flag indicating whether or not this component should be rendered
+            (during Render Response Phase), or
+            processed on any subsequent
+            form submit. The default value for this property is true.
+        </description>
+            <display-name>Rendered Flag</display-name>
+            <icon/>
+            <property-name>rendered</property-name>
+            <property-class>boolean</property-class>
+            <default-value>Boolean.FALSE</default-value>
+            <property-extension>
+                <cdk:generate>false</cdk:generate>
+                <cdk:hidden>false</cdk:hidden>
+                <cdk:literal>false</cdk:literal>
+                <cdk:pass-through>false</cdk:pass-through>
+                <cdk:read-only>false</cdk:read-only>
+                <cdk:required>false</cdk:required>
+            </property-extension>
+        </property>
+        <property>
+            <property-name>height</property-name>
+            <property-class>java.lang.String</property-class>
+            <default-value>"1"</default-value>
+            <property-extension>
+                <cdk:generate>true</cdk:generate>
+                <cdk:hidden>false</cdk:hidden>
+                <cdk:literal>false</cdk:literal>
+                <cdk:pass-through>false</cdk:pass-through>
+                <cdk:read-only>false</cdk:read-only>
+                <cdk:required>false</cdk:required>
+            </property-extension>
+        </property>
+        <property>
+            <property-name>width</property-name>
+            <property-class>java.lang.String</property-class>
+            <default-value>"1"</default-value>
+            <property-extension>
+                <cdk:generate>true</cdk:generate>
+                <cdk:hidden>false</cdk:hidden>
+                <cdk:literal>false</cdk:literal>
+                <cdk:pass-through>false</cdk:pass-through>
+                <cdk:read-only>false</cdk:read-only>
+                <cdk:required>false</cdk:required>
+            </property-extension>
+        </property>
+        <component-extension>
+            <cdk:base-class>net.ihe.gazelle.tags.component.AbstractSpacer</cdk:base-class>
+            <cdk:generate>true</cdk:generate>
+            <cdk:tag>
+                <cdk:generate>false</cdk:generate>
+                <cdk:tag-name>spacer</cdk:tag-name>
+                <cdk:tag-type>Facelets</cdk:tag-type>
+            </cdk:tag>
+            <cdk:component-family>GazelleSpacer</cdk:component-family>
+            <cdk:renderer-type>net.ihe.gazelle.tags.spacer</cdk:renderer-type>
+        </component-extension>
+    </component>
+    <render-kit>
+        <render-kit-id>HTML_BASIC</render-kit-id>
+        <renderer>
+            <component-family>GazelleSpacer</component-family>
+            <renderer-type>net.ihe.gazelle.tags.spacer</renderer-type>
+            <renderer-class>net.ihe.gazelle.tags.renderkit.html.SpacerRenderer</renderer-class>
+            <renderer-extension>
+                <cdk:renders-children>false</cdk:renders-children>
+            </renderer-extension>
+        </renderer>
+        <renderer>
+            <component-family>Insert</component-family>
+            <renderer-type>net.ihe.gazelle.tags.insert</renderer-type>
+            <renderer-class>net.ihe.gazelle.tags.renderkit.html.InsertRenderer</renderer-class>
+            <renderer-extension>
+                <cdk:renders-children>false</cdk:renders-children>
+            </renderer-extension>
+        </renderer>
+        <render-kit-extension/>
+    </render-kit>
+    <faces-config-extension>
+        <cdk:prefix>net.ihe.gazelle.tags</cdk:prefix>
+        <cdk:taglib>
+            <cdk:shortName>gazellecdk</cdk:shortName>
+            <cdk:uri>http://www.ihe.net/gazellecdk</cdk:uri>
+        </cdk:taglib>
+    </faces-config-extension>
+</faces-config>
